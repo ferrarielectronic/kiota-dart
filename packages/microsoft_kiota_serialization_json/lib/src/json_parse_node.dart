@@ -77,6 +77,14 @@ class JsonParseNode implements ParseNode {
       return _node.cast<T>();
     }
 
+    // if node is base64 string, convert it to byte array
+    if (_node is String) {
+      final data = base64Decode(_node);
+      if (data.isNotEmpty) {
+        return data.cast<T>();
+      }
+    }
+
     return result;
   }
 
