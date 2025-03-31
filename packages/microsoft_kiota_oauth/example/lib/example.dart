@@ -1,4 +1,4 @@
-// ignore_for_file: unused_local_variable
+// ignore_for_file: type=lint, unused_local_variable
 import 'dart:io';
 
 import 'package:microsoft_kiota_bundle/microsoft_kiota_bundle.dart';
@@ -19,8 +19,9 @@ Future<void> main() async {
   // ... pass adapter to the generated API client
 }
 
-final authorizationEndpoint =
-    Uri.parse('http://example.com/oauth2/authorization');
+final authorizationEndpoint = Uri.parse(
+  'http://example.com/oauth2/authorization',
+);
 final tokenEndpoint = Uri.parse('http://example.com/oauth2/token');
 final redirectUrl = Uri.parse('http://my-site.com/oauth2-redirect');
 

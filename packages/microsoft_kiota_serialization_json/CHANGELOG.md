@@ -1,5 +1,19 @@
 # Unreleased
 
+## [0.0.5](https://github.com/microsoft/kiota-dart/compare/microsoft_kiota_serialization_json-v0.0.4...microsoft_kiota_serialization_json-v0.0.5) (2025-03-07)
+
+
+### Bug Fixes
+
+* wrapper types for intersection types should not be serialized as objects ([#97](https://github.com/microsoft/kiota-dart/issues/97)) ([41a5df9](https://github.com/microsoft/kiota-dart/commit/41a5df9b6845b9e15e37d5cc110f15f692cd40ab))
+
+## [0.0.4](https://github.com/microsoft/kiota-dart/compare/microsoft_kiota_serialization_json-v0.0.3...microsoft_kiota_serialization_json-v0.0.4) (2025-02-26)
+
+
+### Bug Fixes
+
+* type int is not a subtype of double in type cast in json parse node ([209a587](https://github.com/microsoft/kiota-dart/commit/209a587222f166ef2e82d2a777e85b5329173f74))
+
 ## [0.0.3](https://github.com/microsoft/kiota-dart/compare/microsoft_kiota_serialization_json-v0.0.2...microsoft_kiota_serialization_json-v0.0.3) (2025-01-29)
 
 
